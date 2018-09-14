@@ -17,21 +17,21 @@
     "BookCategory":"資料庫",
     "BookName":"DB2 Answers! Certified Tech Support",
     "BookAuthor":"Richard Yevich",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-06-19"
 },
 {
     "BookId":4,
     "BookCategory":"資料庫",
     "BookName":"Data Mining Adriaans Zantinge",
     "BookAuthor":"addison",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-06-19"
 },
 {
     "BookId":5,
     "BookCategory":"資料庫",
     "BookName":"Data Mining A hands-On Approach Business Professionals",
     "BookAuthor":"Robert Groth",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-06-20"
 }
 ,
 {
@@ -39,7 +39,7 @@
     "BookCategory":"資料庫",
     "BookName":"資料庫系統原理",
     "BookAuthor":"陳玄玲譯",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-06-20"
 }
 ,
 {
@@ -47,7 +47,7 @@
     "BookCategory":"資料庫",
     "BookName":"Modern Database Systems",
     "BookAuthor":"Won Kim",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-06-20"
 }
 ,
 {
@@ -55,42 +55,42 @@
     "BookCategory":"資料庫",
     "BookName":"Oracle 8 資料庫技術指導手冊-2",
     "BookAuthor":"Honour",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-01"
 },
 {
     "BookId":9,
     "BookCategory":"資料庫",
     "BookName":"DATA PREPARATION FOR DATA MINING",
     "BookAuthor":"PYLE",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-01"
 },
 {
     "BookId":10,
     "BookCategory":"資料庫",
     "BookName":"SQL IN A NUTSHELL",
     "BookAuthor":"KLINE",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-01"
 },
 {
     "BookId":11,
     "BookCategory":"資料庫",
     "BookName":"DATA MINING",
     "BookAuthor":"Adriaans",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-02"
 },
 {
     "BookId":12,
     "BookCategory":"資料庫",
     "BookName":"DATABASE TUNING A Priucipled Approach",
     "BookAuthor":"Dennis E. Shasha",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-02"
 },
 {
     "BookId":13,
     "BookCategory":"網際網路",
     "BookName":"Apache Server 徹底研究",
     "BookAuthor":"陳建勳",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-02"
 }
 ,
 {
@@ -98,7 +98,7 @@
     "BookCategory":"網際網路",
     "BookName":"Linux iptables技術實務--防火牆.寬頻管理.連線管制",
     "BookAuthor":"施威銘研究室",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-03"
 }
 ,
 {
@@ -106,7 +106,7 @@
     "BookCategory":"網際網路",
     "BookName":"TCP/IP網路管理",
     "BookAuthor":"Craig Hunt",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-03"
 }
 ,
 {
@@ -114,42 +114,42 @@
     "BookCategory":"網際網路",
     "BookName":"資訊架構學-網站應用",
     "BookAuthor":"陳建勳譯",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-04"
 },
 {
     "BookId":17,
     "BookCategory":"網際網路",
     "BookName":"設計好網站的黃金準則",
     "BookAuthor":"張亮譯",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-04"
 },
 {
     "BookId":18,
     "BookCategory":"網際網路",
     "BookName":"Integrated Broadband Networks",
     "BookAuthor":"HANDEL & HUBER",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-05"
 },
 {
     "BookId":19,
     "BookCategory":"網際網路",
     "BookName":"微軟網路百科全書 第二版",
     "BookAuthor":"Mitch Tulloch",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-05"
 },
 {
     "BookId":20,
     "BookCategory":"網際網路",
     "BookName":"Writing Business Proposals",
     "BookAuthor":"Richard  C. Freed",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-05"
 },
 {
     "BookId":21,
     "BookCategory":"網際網路",
     "BookName":"CARRIER GRADE VOICE OVER IP",
     "BookAuthor":"DANIEL COLLINS",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-05"
 }
 ,
 {
@@ -157,7 +157,7 @@
     "BookCategory":"網際網路",
     "BookName":"TCP/IP SOCKETS IN C#",
     "BookAuthor":"David D. Makofske",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-05"
 }
 ,
 {
@@ -165,7 +165,7 @@
     "BookCategory":"網際網路",
     "BookName":"Implementing Virtual Private Networks",
     "BookAuthor":"Steven Brown",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-05"
 }
 ,
 {
@@ -173,14 +173,14 @@
     "BookCategory":"網際網路",
     "BookName":"C#.NET網際網路程式設計",
     "BookAuthor":"黃嘉輝",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-05"
 },
 {
     "BookId":25,
     "BookCategory":"應用系統整合",
     "BookName":"捷運工程之監控及數據採集系統設計對策",
     "BookAuthor":"祝懷吉.林明正",
-    "BookBoughtDate":"1990-06-18"
+    "BookBoughtDate":"1990-07-05"
 },
 {
     "BookId":26,

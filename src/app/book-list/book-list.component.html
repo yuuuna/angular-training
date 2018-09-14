@@ -1,12 +1,22 @@
-<div class="container mt-5">
-    <table class="table table-sm table-hover table-striped">
+<div class="container mt-4">
+    <div class="row">
+        <div class="form-group form-inline col-12 col-md-6">
+            <label>查詢內容:&nbsp;&nbsp;&nbsp;</label>
+            <input title="查詢內容" type="text" class="form-control" [(ngModel)]="search.data" (keyup.enter)="searchBook()">
+        </div>
+        <div class="form-group form-inline col-12 col-md-6">
+            <label>查詢日期:&nbsp;&nbsp;&nbsp;</label>
+            <input title="查詢日期" type="date" class="form-control" [(ngModel)]="search.date" (change)="searchBook()">
+        </div>
+    </div>
+    <table class="table table-sm table-hover table-striped mt-1">
         <thead>
             <tr>
-                <td>書籍編號</td>
-                <td>書籍名稱</td>
-                <td>書籍種類</td>
-                <td>作者</td>
-                <td>購買日期</td>
+                <th>書籍編號</th>
+                <th>書籍名稱</th>
+                <th>書籍種類</th>
+                <th>作者</th>
+                <th>購買日期</th>
             </tr>
         </thead>
         <tbody>
@@ -19,4 +29,7 @@
             </tr>
         </tbody>
     </table>
+    <div *ngIf="bookList.length === 0" class="text-center">
+        <h3>查無資料</h3>
+    </div>
 </div>
