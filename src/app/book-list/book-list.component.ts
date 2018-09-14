@@ -40,13 +40,9 @@ export class BookListComponent implements OnInit {
                 book = this.bookListLocalStorage[index];
                 isContain = false;
                 if (this.search.data !== '') {
-                    if (book['BookName'] != null && book['BookName'].indexOf(this.search.data) >= 0) {
-                        isContain = true;
-                    }
-                    if (book['BookCategory'] != null && book['BookCategory'].indexOf(this.search.data) >= 0) {
-                        isContain = true;
-                    }
-                    if (book['BookAuthor'] != null && book['BookAuthor'].indexOf(this.search.data) >= 0) {
+                    if ((book['BookName'] != null && book['BookName'].indexOf(this.search.data) >= 0) ||
+                            (book['BookCategory'] != null && book['BookCategory'].indexOf(this.search.data) >= 0) ||
+                            (book['BookAuthor'] != null && book['BookAuthor'].indexOf(this.search.data) >= 0)) {
                         isContain = true;
                     }
                 }
