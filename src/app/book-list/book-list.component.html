@@ -1,3 +1,22 @@
-<div class="container">
-
+<div class="container mt-5">
+    <table class="table table-sm table-hover table-striped">
+        <thead>
+            <tr>
+                <td>書籍編號</td>
+                <td>書籍名稱</td>
+                <td>書籍種類</td>
+                <td>作者</td>
+                <td>購買日期</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let book of bookList">
+                <td>{{ book.BookId }}</td>
+                <td>{{ book.BookName }}</td>
+                <td>{{ book.BookCategory }}</td>
+                <td>{{ book.BookAuthor }}</td>
+                <td>{{ book.BookBoughtDate }}</td>
+            </tr>
+        </tbody>
+    </table>
 </div>

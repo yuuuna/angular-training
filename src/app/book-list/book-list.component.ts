@@ -9,7 +9,7 @@ import * as bookData from '../../assets/book-data.json';
 export class BookListComponent implements OnInit {
 
     bookListLocalStorage = [];
-    bookData = [];
+    bookList = [];
 
     constructor() { }
 
@@ -18,10 +18,13 @@ export class BookListComponent implements OnInit {
     }
 
     initLocalStorage(): void {
-        console.log(bookData);
-        // this.bookListLocalStorage = JSON.parse(localStorage.getItem('bookList'));
-        // if (this.bookListLocalStorage == null) {
-        //
-        // }
+        this.bookListLocalStorage = JSON.parse(<any>localStorage.getItem('bookList'));
+        console.log(this.bookListLocalStorage);
+        if (this.bookListLocalStorage == null) {
+            this.bookListLocalStorage = <any>bookData;
+            localStorage.setItem('bookList', JSON.stringify(<any>this.bookListLocalStorage));
+        }
+        this.bookList = Object.values(this.bookListLocalStorage);
+        this.bookList = this.bookList.slice(0, -1);
     }
 }
